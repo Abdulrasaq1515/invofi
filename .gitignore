@@ -12,8 +12,6 @@ out/
 *.tsbuildinfo
 
 # ── Environment files ─────────────────────────────────────────────────────────
-.env
-.env.local
 .env.*.local
 !.env.local.example
 
@@ -41,3 +39,4 @@ test-results/
 playwright-report/
 blob-report/
 .playwright/
+config.bat
