@@ -12,8 +12,6 @@ out/
 *.tsbuildinfo
 
 # ── Environment files ─────────────────────────────────────────────────────────
-.env
-.env.local
 .env.*.local
 !.env.local.example
 
@@ -21,7 +19,6 @@ out/
 .DS_Store
 Thumbs.db
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -41,3 +38,4 @@ test-results/
 playwright-report/
 blob-report/
 .playwright/
+config.bat
